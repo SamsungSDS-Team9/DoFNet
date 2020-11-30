@@ -28,4 +28,4 @@ If you find this work useful for your research, please cite our [paper](https://
 ```
 
 ## Acknowledgements
-The authors would like to thank Dr. Wonpyo Hong, CEO and President of Samsung SDS, and Dr. Jaeil Suh, leader of Security Business Division, whose vision in AI has led to create Team9 Corporate Venture for advanced AI technology for cybersecurity. 
+The authors would like to thank Dr. Wonpyo Hong, CEO and President of Samsung SDS, whose vision in AI has led to create Team9 Corporate Venture for advanced AI technology for cyber-security. 
