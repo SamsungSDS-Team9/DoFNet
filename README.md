@@ -14,7 +14,8 @@ To download the DoFNet dataset:
 ```
 # Train DoFNET using the DoF dataset
 python main.py
-
+# Test DoFNET using the DoF dataset
+python test.py
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://openaccess.thecvf.com/content/ACCV2020/papers/Jeong_DoFNet_Depth_of_Field_Difference_Learning_for_Detecting_Image_Forgery_ACCV_2020_paper.pdf):
 ```
