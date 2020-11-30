@@ -8,7 +8,11 @@
 
 
 ## Downloading datasets
-To download the DoFNet dataset:
+To download the DoFNet dataset for train and test:
+```
+https://github.com/SamsungSDS-Team9/DoFNet/dataset.zip
+```
+To download the DoFNet Original dataset:
 ```
 
 ```
