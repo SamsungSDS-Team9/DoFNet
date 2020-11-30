@@ -3,7 +3,7 @@
 <div>
  <h3># Vision of Team 9</h3>
  <p>
-   Our vision is to develop .</p>
+   Our vision is to provide trustworthy information in the age of digital mistrust. </p>
 </div>
 
 
@@ -28,3 +28,4 @@ If you find this work useful for your research, please cite our [paper](https://
 ```
 
 ## Acknowledgements
+The authors would like to thank Dr. Wonpyo Hong, CEO and President of Samsung SDS, and Dr. Jaeil Suh, leader of Security Business Division, whose vision in AI has led to create Team9 Corporate Venture for advanced AI technology for cybersecurity. 
