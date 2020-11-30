@@ -1,0 +1,68 @@
+test_type :  crossDisplay
+get_display_path
+valid_displays size 3
+config.rand_seed:  12
+############################################################11
+############################################################22
+############################################################33
+dataload end
+train set : 1119, validation set : 132, test set : 132, len(valDataloader): 3
+adv_learn
+random_seed : 12, type_of_train : adv_learn, batch_size : 16, epochs : 50
+00 epoch finished >> Training Loss: 1.734 C.E. Loss: 2.429 adv Loss: 1.003 background Loss: 1.539 | Acc: 60.143% (673/1119) center_single_acc: 79.267% background_single_acc: 58.088%
+01 epoch finished >> Training Loss: 0.539 C.E. Loss: 0.529 adv Loss: 0.411 background Loss: 0.680 | Acc: 76.139% (852/1119) center_single_acc: 85.255% background_single_acc: 63.896%
+02 epoch finished >> Training Loss: 0.555 C.E. Loss: 0.534 adv Loss: 0.444 background Loss: 0.693 | Acc: 77.927% (872/1119) center_single_acc: 82.306% background_single_acc: 64.969%
+03 epoch finished >> Training Loss: 0.473 C.E. Loss: 0.428 adv Loss: 0.382 background Loss: 0.622 | Acc: 81.412% (911/1119) center_single_acc: 81.948% background_single_acc: 67.739%
+04 epoch finished >> Training Loss: 0.524 C.E. Loss: 0.500 adv Loss: 0.418 background Loss: 0.660 | Acc: 80.965% (906/1119) center_single_acc: 81.501% background_single_acc: 66.130%
+05 epoch finished >> Training Loss: 0.422 C.E. Loss: 0.336 adv Loss: 0.401 background Loss: 0.558 | Acc: 85.523% (957/1119) center_single_acc: 81.144% background_single_acc: 68.811%
+06 epoch finished >> Training Loss: 0.413 C.E. Loss: 0.315 adv Loss: 0.412 background Loss: 0.545 | Acc: 87.131% (975/1119) center_single_acc: 79.357% background_single_acc: 71.135%
+07 epoch finished >> Training Loss: 0.384 C.E. Loss: 0.271 adv Loss: 0.407 background Loss: 0.511 | Acc: 88.829% (994/1119) center_single_acc: 79.357% background_single_acc: 71.492%
+08 epoch finished >> Training Loss: 0.397 C.E. Loss: 0.290 adv Loss: 0.410 background Loss: 0.528 | Acc: 88.204% (987/1119) center_single_acc: 80.697% background_single_acc: 70.152%
+09 epoch finished >> Training Loss: 0.382 C.E. Loss: 0.268 adv Loss: 0.415 background Loss: 0.502 | Acc: 89.276% (999/1119) center_single_acc: 79.178% background_single_acc: 71.135%
+10 epoch finished >> Training Loss: 0.349 C.E. Loss: 0.217 adv Loss: 0.399 background Loss: 0.475 | Acc: 91.600% (1025/1119) center_single_acc: 78.284% background_single_acc: 73.012%
+11 epoch finished >> Training Loss: 0.366 C.E. Loss: 0.247 adv Loss: 0.383 background Loss: 0.507 | Acc: 90.706% (1015/1119) center_single_acc: 79.088% background_single_acc: 71.671%
+12 epoch finished >> Training Loss: 0.350 C.E. Loss: 0.210 adv Loss: 0.416 background Loss: 0.469 | Acc: 91.778% (1027/1119) center_single_acc: 77.569% background_single_acc: 73.637%
+13 epoch finished >> Training Loss: 0.325 C.E. Loss: 0.170 adv Loss: 0.406 background Loss: 0.451 | Acc: 94.370% (1056/1119) center_single_acc: 77.569% background_single_acc: 72.833%
+14 epoch finished >> Training Loss: 0.338 C.E. Loss: 0.192 adv Loss: 0.390 background Loss: 0.480 | Acc: 93.029% (1041/1119) center_single_acc: 77.748% background_single_acc: 73.101%
+15 epoch finished >> Training Loss: 0.318 C.E. Loss: 0.155 adv Loss: 0.403 background Loss: 0.448 | Acc: 94.817% (1061/1119) center_single_acc: 76.854% background_single_acc: 72.833%
+16 epoch finished >> Training Loss: 0.324 C.E. Loss: 0.161 adv Loss: 0.408 background Loss: 0.456 | Acc: 94.817% (1061/1119) center_single_acc: 77.391% background_single_acc: 73.280%
+17 epoch finished >> Training Loss: 0.307 C.E. Loss: 0.148 adv Loss: 0.382 background Loss: 0.445 | Acc: 95.979% (1074/1119) center_single_acc: 77.122% background_single_acc: 73.816%
+18 epoch finished >> Training Loss: 0.324 C.E. Loss: 0.167 adv Loss: 0.387 background Loss: 0.471 | Acc: 92.672% (1037/1119) center_single_acc: 77.659% background_single_acc: 73.012%
+19 epoch finished >> Training Loss: 0.321 C.E. Loss: 0.164 adv Loss: 0.398 background Loss: 0.454 | Acc: 94.727% (1060/1119) center_single_acc: 76.944% background_single_acc: 74.263%
+20 epoch finished >> Training Loss: 0.304 C.E. Loss: 0.132 adv Loss: 0.408 background Loss: 0.428 | Acc: 94.996% (1063/1119) center_single_acc: 75.514% background_single_acc: 75.067%
+21 epoch finished >> Training Loss: 0.325 C.E. Loss: 0.173 adv Loss: 0.384 background Loss: 0.469 | Acc: 92.940% (1040/1119) center_single_acc: 77.212% background_single_acc: 74.531%
+22 epoch finished >> Training Loss: 0.296 C.E. Loss: 0.129 adv Loss: 0.394 background Loss: 0.419 | Acc: 95.710% (1071/1119) center_single_acc: 75.782% background_single_acc: 75.424%
+23 epoch finished >> Training Loss: 0.300 C.E. Loss: 0.131 adv Loss: 0.378 background Loss: 0.447 | Acc: 95.800% (1072/1119) center_single_acc: 78.374% background_single_acc: 73.012%
+24 epoch finished >> Training Loss: 0.317 C.E. Loss: 0.155 adv Loss: 0.389 background Loss: 0.461 | Acc: 94.370% (1056/1119) center_single_acc: 79.178% background_single_acc: 71.939%
+25 epoch finished >> Training Loss: 0.298 C.E. Loss: 0.127 adv Loss: 0.401 background Loss: 0.425 | Acc: 95.442% (1068/1119) center_single_acc: 76.408% background_single_acc: 75.156%
+26 epoch finished >> Training Loss: 0.314 C.E. Loss: 0.158 adv Loss: 0.381 background Loss: 0.457 | Acc: 94.281% (1055/1119) center_single_acc: 77.748% background_single_acc: 73.548%
+27 epoch finished >> Training Loss: 0.303 C.E. Loss: 0.130 adv Loss: 0.414 background Loss: 0.421 | Acc: 95.710% (1071/1119) center_single_acc: 74.173% background_single_acc: 76.318%
+28 epoch finished >> Training Loss: 0.305 C.E. Loss: 0.139 adv Loss: 0.381 background Loss: 0.451 | Acc: 94.459% (1057/1119) center_single_acc: 78.016% background_single_acc: 73.727%
+29 epoch finished >> Training Loss: 0.311 C.E. Loss: 0.151 adv Loss: 0.384 background Loss: 0.452 | Acc: 94.549% (1058/1119) center_single_acc: 77.391% background_single_acc: 73.816%
+30 epoch finished >> Training Loss: 0.297 C.E. Loss: 0.128 adv Loss: 0.376 background Loss: 0.442 | Acc: 95.264% (1066/1119) center_single_acc: 76.408% background_single_acc: 73.995%
+31 epoch finished >> Training Loss: 0.332 C.E. Loss: 0.179 adv Loss: 0.411 background Loss: 0.458 | Acc: 92.940% (1040/1119) center_single_acc: 76.139% background_single_acc: 74.531%
+32 epoch finished >> Training Loss: 0.315 C.E. Loss: 0.152 adv Loss: 0.395 background Loss: 0.452 | Acc: 93.744% (1049/1119) center_single_acc: 76.586% background_single_acc: 74.352%
+33 epoch finished >> Training Loss: 0.299 C.E. Loss: 0.133 adv Loss: 0.398 background Loss: 0.422 | Acc: 94.996% (1063/1119) center_single_acc: 75.782% background_single_acc: 75.424%
+34 epoch finished >> Training Loss: 0.307 C.E. Loss: 0.135 adv Loss: 0.406 background Loss: 0.437 | Acc: 95.174% (1065/1119) center_single_acc: 77.212% background_single_acc: 74.263%
+35 epoch finished >> Training Loss: 0.293 C.E. Loss: 0.124 adv Loss: 0.385 background Loss: 0.424 | Acc: 95.442% (1068/1119) center_single_acc: 76.676% background_single_acc: 75.246%
+36 epoch finished >> Training Loss: 0.313 C.E. Loss: 0.156 adv Loss: 0.372 background Loss: 0.462 | Acc: 95.085% (1064/1119) center_single_acc: 77.480% background_single_acc: 73.816%
+37 epoch finished >> Training Loss: 0.298 C.E. Loss: 0.124 adv Loss: 0.410 background Loss: 0.417 | Acc: 95.621% (1070/1119) center_single_acc: 74.441% background_single_acc: 76.408%
+38 epoch finished >> Training Loss: 0.313 C.E. Loss: 0.149 adv Loss: 0.392 background Loss: 0.454 | Acc: 94.013% (1052/1119) center_single_acc: 78.374% background_single_acc: 73.369%
+39 epoch finished >> Training Loss: 0.291 C.E. Loss: 0.120 adv Loss: 0.380 background Loss: 0.431 | Acc: 96.336% (1078/1119) center_single_acc: 76.408% background_single_acc: 74.710%
+40 epoch finished >> Training Loss: 0.273 C.E. Loss: 0.092 adv Loss: 0.391 background Loss: 0.397 | Acc: 97.408% (1090/1119) center_single_acc: 74.173% background_single_acc: 76.765%
+41 epoch finished >> Training Loss: 0.266 C.E. Loss: 0.089 adv Loss: 0.373 background Loss: 0.396 | Acc: 97.140% (1087/1119) center_single_acc: 74.531% background_single_acc: 77.748%
+42 epoch finished >> Training Loss: 0.264 C.E. Loss: 0.083 adv Loss: 0.369 background Loss: 0.400 | Acc: 97.766% (1094/1119) center_single_acc: 76.586% background_single_acc: 76.139%
+43 epoch finished >> Training Loss: 0.256 C.E. Loss: 0.071 adv Loss: 0.363 background Loss: 0.395 | Acc: 97.945% (1096/1119) center_single_acc: 76.586% background_single_acc: 75.961%
+44 epoch finished >> Training Loss: 0.254 C.E. Loss: 0.068 adv Loss: 0.380 background Loss: 0.376 | Acc: 97.498% (1091/1119) center_single_acc: 74.888% background_single_acc: 78.016%
+45 epoch finished >> Training Loss: 0.252 C.E. Loss: 0.068 adv Loss: 0.368 background Loss: 0.383 | Acc: 98.034% (1097/1119) center_single_acc: 74.888% background_single_acc: 76.944%
+46 epoch finished >> Training Loss: 0.250 C.E. Loss: 0.062 adv Loss: 0.367 background Loss: 0.385 | Acc: 98.570% (1103/1119) center_single_acc: 75.514% background_single_acc: 76.408%
+47 epoch finished >> Training Loss: 0.245 C.E. Loss: 0.050 adv Loss: 0.378 background Loss: 0.370 | Acc: 98.928% (1107/1119) center_single_acc: 73.369% background_single_acc: 78.552%
+48 epoch finished >> Training Loss: 0.245 C.E. Loss: 0.054 adv Loss: 0.373 background Loss: 0.373 | Acc: 98.570% (1103/1119) center_single_acc: 75.067% background_single_acc: 78.105%
+49 epoch finished >> Training Loss: 0.249 C.E. Loss: 0.060 adv Loss: 0.377 background Loss: 0.375 | Acc: 98.570% (1103/1119) center_single_acc: 73.548% background_single_acc: 78.820%
+
+test display type :  display acc :  0.9699248120300752 , ap :  0.9436619718309859 , total :  133 , correct :  129
+Test Loss: 0.172 | Acc: 96.992% (129/133)
+test display type :  display_s acc :  0.924812030075188 , ap :  0.9055100437661316 , total :  133 , correct :  123
+Test Loss: 0.263 | Acc: 92.481% (123/133)
+test display type :  projector acc :  0.8484848484848485 , ap :  0.8283799533799534 , total :  132 , correct :  112
+Test Loss: 0.468 | Acc: 84.848% (112/132)
