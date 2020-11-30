@@ -16,7 +16,7 @@ To download the DoFNet dataset:
 python main.py
 
 ## Citation
-If you find this work useful for your research, please cite our [paper](https://arxiv.org/abs/1711.09020):
+If you find this work useful for your research, please cite our [paper](https://openaccess.thecvf.com/content/ACCV2020/papers/Jeong_DoFNet_Depth_of_Field_Difference_Learning_for_Detecting_Image_Forgery_ACCV_2020_paper.pdf):
 ```
 @InProceedings{Jeong_2020_ACCV,
     author    = {Jeong, Yonghyun and Choi, Jongwon and Kim, Doyeon and Park, Sehyeon and Hong, Minki and Park, Changhyun and Min, Seungjai and Gwon, Youngjune},
